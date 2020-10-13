@@ -1,0 +1,232 @@
+form {
+    display: inline-block;
+}
+
+h1, h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: auto;
+    background-color: white;
+    max-width: 100%;
+    
+}
+
+.input1{
+  
+    width: 300px;
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-decoration: none;
+
+}
+.input2{
+    display: block;
+    width: 450px;
+    display: inline-block;
+    margin: 15px 15px 15px 15px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-decoration: none;
+}  
+
+.input3{
+    display: block;
+    width: 150px;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    
+}  
+
+.input4{
+    display: block;
+    width: 100px;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    
+    
+}  
+
+.input5{
+    display: block;
+    width: 300px;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    
+}  
+
+.button1{
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+}
+
+.button1:hover {
+    background-color: royalblue;
+}
+
+.button2{
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    color: black;
+    display: block;
+    
+}
+
+.button3{
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    margin: 10px 10px 10px 10px;
+}
+
+.button3:hover {
+    background-color: royalblue;
+}
+
+.button4 {
+    background-color: red;
+    border: 1px solid;
+    color: black;
+    padding: 10px 14px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.title{
+    font-size: 40px;
+    margin: 50px 0 50px 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login_view{
+    width: 500px;
+    border: solid 1px;
+    background-color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 4px;
+    padding: 30px;
+    margin: auto auto;
+    margin-top: 100px;
+}
+
+.shoppinglist-header1{
+    
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    align-items: center;
+}
+.shoppinglist-header2{
+    
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.shoppinglist-listview{
+    width: 60%;
+    padding: 30px;
+    margin: auto auto;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    border: solid 1px; 
+    background-color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    position: relative;
+   
+}
+
+
+.shoppinglist-listtitle{
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    border: solid 1px;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    
+}
+
+.shoppinglist-productview{
+    width: 60%;
+    padding: 30px;
+    margin: auto auto;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    border: solid 1px; 
+    background-color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    position: relative;
+   
+}
+
+.shoppinglist-producttitle{
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    border: solid 1px;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    
+}
