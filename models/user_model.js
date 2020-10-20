@@ -6,9 +6,9 @@ const user_schema = new Schema({
         type: String,
         req: true
     },
-    ShoppingLists: [{
+    Reservations: [{
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'ShoppinglistToMongo',
+        ref: 'ReservationToMongo',
         req: true
     }]
 });

@@ -32,9 +32,9 @@ body {
 }
 .input2{
     display: block;
-    width: 450px;
+    width: 200px;
     display: inline-block;
-    margin: 15px 15px 15px 15px;
+    margin: 10px 10px 10px 10px;
     padding: 10px;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -51,32 +51,7 @@ body {
     border: 1px solid #ddd;
     text-decoration: none;
     
-}  
-
-.input4{
-    display: block;
-    width: 100px;
-    display: inline-block;
-    margin: 10px 10px 10px 10px;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    text-decoration: none;
-    
-    
-}  
-
-.input5{
-    display: block;
-    width: 300px;
-    display: inline-block;
-    margin: 10px 10px 10px 10px;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    text-decoration: none;
-    
-}  
+}    
 
 .button1{
     padding: 10px 20px;
@@ -98,19 +73,7 @@ body {
     
 }
 
-.button3{
-    padding: 10px 20px;
-    background-color: dodgerblue;
-    border: 1px solid #ddd;
-    color: white;
-    margin: 10px 10px 10px 10px;
-}
-
-.button3:hover {
-    background-color: royalblue;
-}
-
-.button4 {
+.button3 {
     background-color: red;
     border: 1px solid;
     color: black;
@@ -139,7 +102,7 @@ body {
     margin-top: 100px;
 }
 
-.shoppinglist-header1{
+.reservation-header1{
     
     background-color: grey;
     font-family: Arial, Helvetica, sans-serif;
@@ -149,7 +112,7 @@ body {
     text-align: center;
     align-items: center;
 }
-.shoppinglist-header2{
+.reservation-header2{
     
     background-color: grey;
     font-family: Arial, Helvetica, sans-serif;
@@ -157,45 +120,7 @@ body {
     text-align: center;
 }
 
-
-.shoppinglist-listview{
-    width: 60%;
-    padding: 30px;
-    margin: auto auto;
-    margin-bottom: 20px;
-    text-align: center;
-    color: black;
-    border: solid 1px; 
-    background-color:whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 4px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    position: relative;
-   
-}
-
-
-.shoppinglist-listtitle{
-    
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    text-align: center;
-    border: solid 1px;
-    background-color: gray;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
-    margin: auto auto;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    
-}
-
-.shoppinglist-productview{
+.reservation-listview{
     width: 60%;
     padding: 30px;
     margin: auto auto;
@@ -213,7 +138,7 @@ body {
    
 }
 
-.shoppinglist-producttitle{
+.reservation-listtitle{
     
     position: absolute;
     top: 0px;

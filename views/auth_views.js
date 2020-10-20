@@ -2,14 +2,14 @@ const login_view = () => {
     let html = `
         <html>
         <head>
-        <title>ShoppingList App</title>
+        <title>Reservation App</title>
         <meta http-equiv="Content-Type", content="text/html;charset=UTF-8">
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         </head>
         <body>
         <div class="login_view">
             
-        <h2>ShoppingList App</h2>
+        <h2>Reservation App</h2>
             
             <br>
             <form action="/login" method="POST">
