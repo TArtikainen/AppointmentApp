@@ -25,9 +25,9 @@ const reservations_view = ((data) => {
         <div><h2>Add booking information</h2></div>         
         <form action="/add-reservation" method="POST">
             
-            <input class=input2 type="date" name="product_date">
-            <input class=input3 type="time" name="product_time">
-            <input class=input3 type="number" name="product_duration">
+            <input class=input2 type="date" name="reservation_date">
+            <input class=input3 type="time" name="reservation_time">
+            <input class=input3 type="number" name="reservation_duration" placeholder="Add Duration">
             
             <button class=button1 type="submit">Add a reservation</button><br>
         </form>

@@ -13,10 +13,6 @@ const reservation_schema = new Schema({
     time: {
         type: Object,
         req: true
-    },
-    time2: {
-        type: Object,
-        req: true
     }
 });
 const reservation_model = mongoose.model('ReservationToMongo', reservation_schema);

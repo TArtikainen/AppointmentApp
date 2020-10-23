@@ -19,10 +19,9 @@ const post_add_reservation = (req, res, next) => {
     const user = req.user;
 
     let new_reservation = reservation_model({
-        date: req.body.product_date,
-        duration: req.body.product_duration,
-        time: req.body.product_time,
-        time2: req.body.product_time
+        date: req.body.reservation_date,
+        time: req.body.reservation_time,
+        duration: req.body.reservation_duration        
     });
 
     new_reservation.save().then(() => {
