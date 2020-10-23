@@ -21,14 +21,14 @@ const reservations_view = ((data) => {
         </div>
 
         <div class="reservation-header2">
-        <div><h2>Add booking information</h2></div>
+        <div<h2>Add booking information</h2></div>
         <div>
                  
         <form action="/add-reservation" method="POST">
             
-            <input class=input2 type="date" placeholder = "Enter image url" name="product_date">
-            <input class=input3 type="time" placeholder="Enter shoplist name" name="product_time">
-            <input class=input3 type="number" placeholder = "Enter duration" name="product_duration">
+            <input class=input2 type="date" name="product_date">
+            <input class=input3 type="time" name="product_time">
+            <input class=input3 type="number" name="product_duration">
             
             <button class=button1 type="submit">Add a reservation</button><br>
         </form>
@@ -57,7 +57,7 @@ const reservations_view = ((data) => {
     
                 </div>
                         <div><h3>${reservation.date}</h3></div>
-                        <div><h3> ${reservation.time} <br> Booking duration ${reservation.duration} hours</h3></div>                    
+                        <div><h3> ${reservation.time} <br> Booking duration ${reservation.duration} hour(s)</h3></div>                    
                         <div><h3> ${data.user_name}</h3></div>
                 <div>
                         <form action="delete-reservation" method="POST">
