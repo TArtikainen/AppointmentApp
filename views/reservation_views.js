@@ -29,7 +29,7 @@ const reservations_view = ((data) => {
             <input class=input3 type="time" name="reservation_time">
             <input class=input3 type="number" name="reservation_duration" placeholder="Add Duration">
             
-            <button class=button1 type="submit">Add a reservation</button><br>
+            <button class=button1 type="submit">Add reservation</button><br>
         </form>
     </div>
     
