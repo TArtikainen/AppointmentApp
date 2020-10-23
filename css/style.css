@@ -79,6 +79,7 @@ body {
     color: black;
     padding: 10px 14px;
     font-size: 20px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
